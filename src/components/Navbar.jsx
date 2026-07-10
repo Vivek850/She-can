@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -31,24 +32,24 @@ function Navbar() {
           <div className="dropdown text-[20px] ">
             <ul className="flex gap-10 mr-20 text-white">
               <li>
-                <a href="/" className="hover:text-red-400">
+                <Link to="/" className="hover:text-red-400">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/Ourjourney" className="hover:text-red-400">
+                <Link to="/Ourjourney" className="hover:text-red-400">
                   Our Journey
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/OurRecognition" className="hover:text-red-400">
+                <Link to="/OurRecognition" className="hover:text-red-400">
                   Our Recognition
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/SupportUs" className="hover:text-red-400">
+                <Link to="/SupportUs" className="hover:text-red-400">
                   Support Us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
