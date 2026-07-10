@@ -135,7 +135,7 @@ export default function SupportUs() {
       </div>
       <div className="flex h-screen w-full">
         <div className=" w-3/5 flex flex-col justify-center items-center">
-          <div className="w-[80%] flex-col">
+          <div className="w-[80%] flex-col pt-[9em]">
             <h1 className="text-7xl font-bold text-red-500 pt-10">
               Donate Now
             </h1>
